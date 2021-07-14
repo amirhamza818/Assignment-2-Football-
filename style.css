@@ -2,6 +2,8 @@
 main{
     place-items:center;
 }
+/* media-query */
+
 /* 1st-part */
 .landing-1{
     background-color: blue;
@@ -15,6 +17,14 @@ main{
     font-size: 64px;
     margin: 22px;
     margin-left: 156px;
+}
+.right{
+    transition: 3s;
+}
+.right:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(30deg);
 }
 .right img{
     width: 556px;
